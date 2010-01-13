@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <div class="header">
+    <title><%= h(yield(:title) || "Niveo Solutions") %></title>
+    <%= javascript_include_tag "jquery.js" %>
+    <%= javascript_include_tag "application.js" %>
+    <%= javascript_include_tag "s3slider.js" %>
+    <%= javascript_include_tag "slide.js" %>
+    <%= stylesheet_link_tag 'reset' %>
+    <%= stylesheet_link_tag '960' %>
+    <%= stylesheet_link_tag 'application' %>
+
+    
+	<div id="header_container" class="container_12">
+          <p>Call us at <strong>(325) 480-0646</strong> or <a href="#get-in-touch">Contact Us</a></p>
+        </div>
+    </div>
+  </head>
+  <body style="background: url(images/background.png) repeat fixed">
+    
+    <div class="container_12">
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <%- end -%>
+    </div>
+      <%- if show_title? -%>
+        <h1><%=h yield(:title) %></h1>
+      <%- end -%>
+      
+      <%= yield %>
+    
+  </body>
+</html>

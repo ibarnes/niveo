@@ -1,0 +1,23 @@
+
+<div id="messages" class="container_12">
+<table>
+  <tr>
+    <th></th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Company</th>
+    <th>Porject</th>
+  </tr>
+  <% for contact_us in @contact_us %>
+    <tr>
+      <td><%=h contact_us.id%></td>
+      <td><%=h contact_us.name %></td>
+      <td><%=h contact_us.email %></td>
+      <td><%=h contact_us.company %></td>
+      <td><%=h contact_us.porject %></td>
+      <td><%= link_to "Show", contact_us %></td>
+      
+    </tr>
+  <% end %>
+</table>
+</div>

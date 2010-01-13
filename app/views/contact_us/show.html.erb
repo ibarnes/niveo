@@ -1,0 +1,25 @@
+
+<div class="container_12">
+<p>
+  <strong>Name:</strong>
+  <%=h @contact_us.name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%=h @contact_us.email %>
+</p>
+<p>
+  <strong>Company:</strong>
+  <%=h @contact_us.company %>
+</p>
+<p>
+  <strong>Porject:</strong>
+  <%=h @contact_us.porject %>
+</p>
+
+<p>
+  
+  <%= link_to "Destroy", @contact_us, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", root_url %>
+</p>
+</div>
