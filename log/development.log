@@ -5610,3 +5610,11 @@ Rendering template within layouts/application
 Rendering contact_us/new
 Rendered contact_us/_form (5.3ms)
 Completed in 32ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 17:41:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (50.1ms)
+Completed in 189ms (View: 177, DB: 0) | 200 OK [http://localhost/]

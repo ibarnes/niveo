@@ -30,10 +30,12 @@ a {
 .background {background: url(images/background.png) repeat fixed}
 #logo_nav{
     padding-top:20px;
+   background:#fff;
 }
 #nav {margin-top: 0px; color:#000; float:right;}
 #nav li {float:left}
 #nav li a {margin: 18px 0px 0px 50px;display:block;text-decoration: none;font-weight:bold; color:#666; font-size: 18px; text-transform: uppercase;}
+#nav li a:hover {text-decoration: underline;}
 #nav span {display:block;}
 
 
@@ -55,7 +57,7 @@ width:400px;
 #services h2 {color: #000; }
 #services p {font-size: 15px; }
 
-#design, #development, #finished_products {border:2px solid #d7d7d7; }
+#design, #development, #finished_products {border:5px solid #d7d7d7; }
 
 #design {
          height:200px;
@@ -128,14 +130,14 @@ width:400px;
 .git_contain{/*border-top: 20px solid #666;-moz-border-top-colors:#fff #fff #eee #eee #ddd #ddd #ccc #ccc #bbb #bbb #aaa #aaa #999 #999 #888 #888 #777 #777 #666 #666 ;*/background-color: #666;padding-bottom: 8px}
 
 
-#contact_contain{background-color: #b2b2b2;}
-#get-in-touch h2{font-size: 35px;color:#000;}
-#get-in-touch label{color:white;  font-size: 17px}
+#contact_contain{background-color: #FBFBFC;padding:10px;border: 1px solid #DbDBDB;}
+#get-in-touch h2{font-size: 35px;color:#0776a0;}
+#get-in-touch label{color:#0776a0;  font-size: 17px}
 
 #praise {padding-top: 60px; padding-bottom: 20px}
 .praise {padding-left: 75px;color:black;  font-weight: bold}
 
-blockquote {color:white;font-size: 17px}
+blockquote {color:#0776a0;font-size: 17px}
 
 #legal {color:white;}
 
