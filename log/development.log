@@ -5554,3 +5554,51 @@ Rendering template within layouts/application
 Rendering contact_us/new
 Rendered contact_us/_form (4.6ms)
 Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:43:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (22.6ms)
+Completed in 121ms (View: 115, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:43:47) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.7ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:48:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.9ms)
+Completed in 31ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:50:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (10.1ms)
+Completed in 660ms (View: 653, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:52:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.5ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 16:53:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.6ms)
+Completed in 24ms (View: 18, DB: 0) | 200 OK [http://localhost/]

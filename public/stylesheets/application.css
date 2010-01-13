@@ -1,21 +1,22 @@
 html{padding: 0;margin: 0;}
 body {
-  font-family: Helvetica Neue,Helvetica, Veranda, Arial,sans-serif;
-  font-size: 14px;
+   font-family: Helvetica,Arial,Verdana,sans-serif;
+   font-size: 14px;
+   background: url(/images/tabs_bg.jpg) repeat-x fixed;
 }
 
 a img {
-  border: none;
+    border: none;
 }
 
 a {
-  color: #0000FF;
+    color: #0000FF;
 }
 
 .clear {
-  clear: both;
-  height: 0;
-  overflow: hidden;
+    clear: both;
+    height: 0;
+    overflow: hidden;
 }
 
 #user {text-align: center}
@@ -23,36 +24,47 @@ a {
 #messages table{margin-top: 25px}
 
 .header {background-color: #666;padding-bottom: 1px; padding-top: 1px}
-.header a:hover {color: white;text-shadow: 2px 2px 2px #000;text-decoration: none}
+.header a:hover {color: white;text-decoration: none;text-align:center;}
 .header, .header a{color: white;}
 
 .background {background: url(images/background.png) repeat fixed}
-
-#nav {margin-top: 15px}
+#logo_nav{
+    padding-top:20px;
+}
+#nav {margin-top: 0px; color:#000; float:right;}
 #nav li {float:left}
-#nav li a {margin: 18px 0px 0px 50px;display:block;text-decoration: none; text-shadow: 1px 1px 1px #666;color:#0776A0; font-size: 30px; text-transform: uppercase;}
-#nav span {display:block;font-size: 19px;}
-span#how {margin-left:2px}
-span#who {margin-left: 3px}
-span#get {margin-left: 2px}
+#nav li a {margin: 18px 0px 0px 50px;display:block;text-decoration: none;font-weight:bold; color:#666; font-size: 18px; text-transform: uppercase;}
+#nav span {display:block;}
 
 
+#logo {padding: 35px 0px 25px 15px;background:transparent url('/images/niveo.png') no-repeat scroll 0 0;
+display:block;
+height:50px;
+margin:0;
+padding:0;
+width:400px;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;}
 
-#logo {padding: 35px 0px 25px 15px;}
+#we-do{text-align: center;padding:30px 0 50px 0;}
+#we-do h1{color: #000;font-size:40px;}
+#we-do p {font-size: 20px;color:#72ADBF;}
 
-#we-do{text-align: center;padding:0px 0 50px 0;}
-#we-do h1{color: #AD1938; text-shadow: 1px 1px 1px #666}
-#we-do p {font-size: 20px;text-shadow: 3px 3px 3px #fff}
+#services{text-align: center; display:block;}
+#services h2 {color: #000; }
+#services p {font-size: 15px; }
 
-#services{text-align: center; display: block}
-#services h2 {color: #AD1938; text-shadow: 1px 1px 1px #000}
-#services p {font-size: 15px; text-shadow: 1px 1px 1px #fff }
+#design, #development, #finished_products {border:2px solid #d7d7d7; }
 
-#design, #development, #finished_products {border:2px solid #0C4053;background-color: #5BB3D5; }
-
-#design {-moz-border-right-colors:#5BB3D5; padding-bottom:77px; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px; -moz-border-radius-bottomleft:10px; -webkit-border-bottom-left-radius:10px;}
-#development {-moz-border-left-colors:#5BB3D5; -moz-border-right-colors:#5BB3D5; margin: 0 -5px 0 -5px; }
-#finished_products { -moz-border-left-colors:#5BB3D5; padding-bottom: 20px;  -moz-border-radius-topright: 10px; -webkit-border-top-right-radius:10px;-moz-border-radius-bottomright:10px;-webkit-border-bottom-right-radius:10px;}
+#design {
+         height:200px;
+         -moz-border-radius-topleft: 10px;
+         -webkit-border-top-left-radius: 10px;
+         -moz-border-radius-bottomleft:10px;
+         -webkit-border-bottom-left-radius:10px;}
+#development {height:200px; margin: 0 -5px 0 -5px;}
+#finished_products { height:200px;  -moz-border-radius-topright: 10px; -webkit-border-top-right-radius:10px;-moz-border-radius-bottomright:10px;-webkit-border-bottom-right-radius:10px;}
 
 #confine {padding: 0 12px 0 12px}
 
@@ -60,49 +72,49 @@ span#get {margin-left: 2px}
 
 /* new slider */
 #s3slider {
-   margin-top: 30px;
-   margin-left: 133px;
-   margin-bottom: 50px;
-   width: 696px; /* important to be same as image width */
-   height: 241px; /* important to be same as image height */
-   position: relative; /* important */
-   overflow: hidden; /* important */
+    margin-top: 30px;
+    margin-left: 133px;
+    margin-bottom: 50px;
+    width: 696px; /* important to be same as image width */
+    height: 241px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
 }
 
 #s3sliderContent {
-   width: 696px; /* important to be same as image width or wider */
-   position: absolute; /* important */
-   top: 0; /* important */
-   margin-left: 0; /* important */
+    width: 696px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
 }
 
 .s3sliderImage {
-   float: left; /* important */
-   position: relative; /* important */
-   display: none; /* important */
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
 }
 
 .s3sliderImage span {
-   position: absolute; /* important */
-   left: 0;
-   font: 10px/15px Arial, Helvetica, sans-serif;
-   padding: 10px 13px;
-   width: 374px;
-   background-color: #000;
-   filter: alpha(opacity=70); /* here you can set the opacity of box with text */
-   -moz-opacity: 0.7; /* here you can set the opacity of box with text */
-   -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
-   opacity: 0.7; /* here you can set the opacity of box with text */
-   color: #fff;
-   display: none; /* important */
-   top: 0;
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 374px;
+    background-color: #000;
+    filter: alpha(opacity=70); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.7; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.7; /* here you can set the opacity of box with text */
+    opacity: 0.7; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    top: 0;
 
-   /*
-       if you put
-       top: 0; -> the box with text will be shown at the top of the image
-       if you put
-       bottom: 0; -> the box with text will be shown at the bottom of the image
-   */
+    /*
+        if you put
+        top: 0; -> the box with text will be shown at the top of the image
+        if you put
+        bottom: 0; -> the box with text will be shown at the bottom of the image
+    */
 }
 
 /* new slider */
@@ -117,66 +129,66 @@ span#get {margin-left: 2px}
 
 
 #contact_contain{background-color: #b2b2b2;}
-#get-in-touch h2{font-size: 35px;color:#AD1938;text-shadow: 2px 2px 2px #000;}
-#get-in-touch label{color:white; text-shadow: 2px 2px 2px #000; font-size: 17px}
+#get-in-touch h2{font-size: 35px;color:#000;}
+#get-in-touch label{color:white;  font-size: 17px}
 
 #praise {padding-top: 60px; padding-bottom: 20px}
-.praise {padding-left: 75px;color:black; text-shadow: 1px 1px 1px #fff; font-weight: bold}
+.praise {padding-left: 75px;color:black;  font-weight: bold}
 
-blockquote {color:white;text-shadow: 2px 2px 2px #000;font-size: 17px}
+blockquote {color:white;font-size: 17px}
 
-#legal {color:white;text-shadow: 2px 2px 2px #000;}
+#legal {color:white;}
 
 
 #flash_notice, #flash_error {
-  padding: 5px 8px;
-  margin: 10px 0;
+    padding: 5px 8px;
+    margin: 10px 0;
 }
 
 #flash_notice {
-  background-color: #5BB3D5;
-  border: solid 1px #0776A0;
+    background-color: #5BB3D5;
+    border: solid 1px #0776A0;
 }
 
 #flash_error {
-  background-color: #FCC;
-  border: solid 1px #C66;
+    background-color: #FCC;
+    border: solid 1px #C66;
 }
 
 .fieldWithErrors {
-  display: inline;
+    display: inline;
 }
 
 #errorExplanation {
-  width: 400px;
-  border: 2px solid #CF0000;
-  padding: 0px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+    width: 400px;
+    border: 2px solid #CF0000;
+    padding: 0px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
 }
 
 #errorExplanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: 0;
-  background-color: #c00;
-  color: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: 0;
+    background-color: #c00;
+    color: #fff;
 }
 
 #errorExplanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 8px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 8px;
 }
 
 #errorExplanation ul {
-  margin: 2px 24px;
+    margin: 2px 24px;
 }
 
 #errorExplanation ul li {
-  font-size: 12px;
-  list-style: disc;
+    font-size: 12px;
+    list-style: disc;
 }
