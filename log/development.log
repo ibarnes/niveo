@@ -5522,3 +5522,35 @@ Rendering template within layouts/application
 Rendering contact_us/new
 Rendered contact_us/_form (4.6ms)
 Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 13:18:31) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.6ms)
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 13:18:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.7ms)
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 13:18:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.7ms)
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 13:18:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.6ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
