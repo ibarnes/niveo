@@ -23,7 +23,7 @@ a {
 #messages td {padding-left: 50px}
 #messages table{margin-top: 25px}
 
-.header {background-color: #666;padding-bottom: 1px; padding-top: 1px}
+.header {background-color: #666;padding-bottom: 1px; padding-top: 1px;}
 .header a:hover {color: white;text-decoration: none;text-align:center;}
 .header, .header a{color: white;}
 
@@ -49,9 +49,9 @@ width:400px;
 -moz-background-inline-policy:continuous;
 -moz-background-origin:padding;}
 
-#we-do{text-align: center;padding:30px 0 50px 0;}
+#we-do{text-align: center;padding:10px 0 50px 0;}
 #we-do h1{color: #000;font-size:40px;}
-#we-do p {font-size: 20px;color:#72ADBF;}
+#we-do p {font-size: 20px;color:#f5f5f5;}
 
 #services{text-align: center; display:block;}
 #services h2 {color: #000; }
