@@ -6090,3 +6090,19 @@ Rendering template within layouts/application
 Rendering contact_us/new
 Rendered contact_us/_form (4.8ms)
 Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 23:50:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.9ms)
+Completed in 24ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-13 23:50:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (4.6ms)
+Completed in 67ms (View: 8, DB: 0) | 200 OK [http://localhost/]
