@@ -49,8 +49,8 @@ width:400px;
 -moz-background-inline-policy:continuous;
 -moz-background-origin:padding;}
 
-#we-do{text-align: center;padding:10px 0 50px 0;}
-#we-do h1{color: #000;font-size:40px;}
+#we-do{text-align: center;padding:10px 0 40px 0;}
+#we-do h1{color: #000;}
 #we-do p {font-size: 20px;color:#f5f5f5;}
 
 #services{text-align: center; display:block;}

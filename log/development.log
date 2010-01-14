@@ -6106,3 +6106,284 @@ Rendering template within layouts/application
 Rendering contact_us/new
 Rendered contact_us/_form (4.6ms)
 Completed in 67ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:30:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (1625.0ms)
+Completed in 1734ms (View: 1719, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:33:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:35:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:35:37) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:35:57) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:47:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:48:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 63ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:49:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 09:50:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:01:04) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:05:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:10:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:13:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:16:20) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-14 10:16:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/do_right.png" with {:method=>:get}):
+  c:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  c:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  c:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:16:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:18:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:19:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:20:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:20:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:21:34) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:22:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:25:57) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:27:01) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:32:45) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:34:48) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:34:59) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:35:05) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 10:35:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 11:39:19) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 12:13:05) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 12:15:18) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (0.0ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 12:16:25) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ContactUsController#new (for 127.0.0.1 at 2010-01-14 12:17:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"contact_us"}
+Rendering template within layouts/application
+Rendering contact_us/new
+Rendered contact_us/_form (15.6ms)
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
